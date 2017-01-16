@@ -1,0 +1,43 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 230 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 924732 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod java/lang/String <init> ([CII)V 2089 1 5387 0 576
+ciMethod java/lang/String length ()I 3073 1 419412 0 0
+ciMethod java/lang/String getChars (II[CI)V 3065 1 6527 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 841 1 108230 0 224
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2409 1 365989 0 -1
+ciMethod java/lang/AbstractStringBuilder expandCapacity (I)V 649 1 5249 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1545 1 10530 0 896
+ciMethod java/lang/AbstractStringBuilder appendNull ()Ljava/lang/AbstractStringBuilder; 1 1 458 0 -1
+ciMethod java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder; 2353 1 308254 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 649 1 71299 0 192
+ciMethod java/lang/StringBuilder <init> (Ljava/lang/String;)V 2185 1 9251 0 0
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1353 1 193486 0 960
+ciMethod java/lang/StringBuilder append (C)Ljava/lang/StringBuilder; 2257 1 148244 0 704
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 705 1 69093 0 704
+ciMethod java/lang/Character isWhitespace (C)Z 2233 1 23948 0 -1
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2057 1 47116 0 32
+ciMethod java/util/AbstractCollection <init> ()V 417 1 88774 0 32
+ciMethod java/lang/Math max (II)I 489 1 143039 0 -1
+ciMethod java/util/ArrayList <init> (I)V 673 1 5280 0 288
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 713 1 25159 0 576
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 713 1 25159 0 0
+ciMethod java/util/ArrayList grow (I)V 129 1 4888 0 0
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 0
+ciMethod java/util/ArrayList size ()I 1065 1 133 0 0
+ciMethod java/util/ArrayList toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 217 1 7264 0 1184
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 713 1 23946 0 736
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2057 1 9569 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2049 1 5390 0 -1
+ciMethod java/util/Arrays copyOfRange ([CII)[C 2153 1 5414 0 -1
+ciMethodData java/lang/Object <init> ()V 2 924734 orig 264 104 158 161 89 0 0 0 0 136 4 7 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 241 209 112 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData sun/reflect/generics/parser/SignatureParser parseTypeVariableSignature ()Lsun/reflect/generics/tree/TypeVariableSignature; 2 1784 orig 264 104 158 161 89 0 0 0 0 120 169 58 21 0 0 0 0 56 3 0 0 208 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 0 129 54 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 3 0 1 0 240 1 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 62 0x30007 0x6d0 0x60 0x0 0x70002 0x0 0xc0007 0x0 0x30 0x0 0x130002 0x0 0x180002 0x6d0 0x1d0007 0x6d0 0x30 0x0 0x230002 0x0 0x280002 0x6d0 0x2c0002 0x6d0 0x2f0002 0x6d0 0x340002 0x6d0 0x390007 0x6d0 0x100 0x0 0x410002 0x0 0x460005 0x0 0x0 0x0 0x0 0x0 0x4a0005 0x0 0x0 0x0 0x0 0x0 0x4d0005 0x0 0x0 0x0 0x0 0x0 0x500005 0x0 0x0 0x0 0x0 0x0 0x530002 0x0 0x580002 0x6d0 oops 0
+ciMethodData java/lang/String length ()I 2 419858 orig 264 104 158 161 89 0 0 0 0 232 59 7 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 145 52 51 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2 366446 orig 264 104 158 161 89 0 0 0 0 48 18 14 21 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 1 0 0 9 178 44 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 4 0 1 0 80 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 10 0x70007 0x53b01 0x50 0x5b40 0xc0005 0x0 0x159fa9c0 0x40bd 0x159fa480 0x1a83 oops 2
